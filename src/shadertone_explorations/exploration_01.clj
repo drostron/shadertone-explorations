@@ -74,7 +74,8 @@
   ;; (t/start file
   (t/start-fullscreen file
            ;; :width 837 :height 837
-           :width 837 :height 1006
+           ;; :width 837 :height 1006
+           ;; :width 1400 :height 2000
            :user-data {"iOvertoneVolume"
                        (atom {:synth voltap-synth
                        ;; (atom {:synth external
@@ -97,6 +98,8 @@
 (start-shader "resources/shader-exploration-14.glsl")
 (start-shader "resources/shader-exploration-15.glsl")
 (start-shader "resources/shader-exploration-16.glsl")
+(start-shader "resources/shader-exploration-17.glsl")
+(start-shader "resources/shader-exploration-18.glsl"))
 (t/stop)
 (start-shader "resources/shadertoy-flames.glsl")
 (start-shader "resources/shadertoy-plasma-globe.glsl")
